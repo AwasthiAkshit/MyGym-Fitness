@@ -381,3 +381,134 @@ a:focus {
   line-height: 3.5rem;
   text-align: center;
 }
+
+/*
+   Sponsor             
+*/
+
+#sponsor-section {
+  background: var(--dark-color);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+#sponsor-section h2 {
+  font-size: 24px;
+}
+.brand-description {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.sponsor-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.sponsor {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+.sponsor img {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* sponsor */
+
+/* Heading styles */
+.section-heading {
+  text-align: center; 
+  font-size: 28px; 
+  color: #333; 
+  margin-bottom: 30px;
+}
+
+/* Sponsor section styles */
+.sponsor-section {
+  background-color: #f7f7f7; 
+  padding: 40px;
+}
+
+.sponsor-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-wrap: wrap; 
+}
+
+.sponsor {
+  margin: 20px;
+  width: calc(50% - 40px); 
+  background-color: #171819; 
+  border: 1px solid #ddd;
+  border-radius: 10px; 
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.sponsor img {
+  width: 100px; 
+  height: 100px;
+  margin: 20px;
+  border-radius: 50%; 
+}
+
+.sponsor p {
+  font-size: 16px;
+  color: #fff; 
+  margin-top: 10px; 
+}
+
+.sponsor strong {
+  font-weight: bold; 
+  font-size: 17px;
+  color: #f13a11; 
+}
+
+
+/*
+    ABOUT            
+*/
+
+.about {
+  background: var(--about-bg-color);
+}
+
+.about-working-hours {
+  border-left: 2px solid;
+  padding-left: 3.5rem;
+}
+
+.about-working-hours strong {
+  color: var(--white-color);
+  opacity: 0.85;
+}
+
+.team-thumb {
+  position: relative;
+}
+
+.team-info {
+  background: var(--white-color);
+  border-radius: 0 0 2px 2px;
+  box-shadow: 6px 0 38px rgba(20,20,20,0.10);
+  padding: 20px;
+  position: relative;
+}
+
+.team-info span {
+  font-weight: var(--font-weight-light);
+  opacity: 0.85;
+}
+
+.team-info .social-icon {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.team-info .social-icon li {
+  display: block;
+}
